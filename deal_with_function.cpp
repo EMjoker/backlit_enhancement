@@ -68,7 +68,7 @@ int main(int argc, char** argv)
     const char output_title[] = "contrast-brightness_alter_test";
     namedWindow(output_title, WINDOW_AUTOSIZE);
     imshow(output_title, dst);
-    imwrite("D:/opencvproj/paper_output/leg_dst_fnc.png", dst);
+    //imwrite("D:/opencvproj/paper_output/leg_dst_fnc.png", dst);
 
     waitKey(0);
     return 0;
